@@ -1,0 +1,48 @@
+# Visual Studio 生成的文件
+.vs/
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.ipch
+*.log
+*.tlog
+*.lastbuildstate
+*.suo
+*.user
+*.sln.docstates
+
+# Visual Studio 项目/解决方案文件（通常不需要上传）
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# 编译器临时文件
+*.tmp
+*.rsp
+*.dll
+*.lib
+*.exp
+
+# 其他常见忽略
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.swp
+
+# 确保以下源代码文件不被忽略（默认不会被忽略，这里明确写出以防万一）
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!*.inl
